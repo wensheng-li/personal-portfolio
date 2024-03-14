@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/Favicons.png" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/d1faaf967e.js" crossorigin="anonymous"></script>
@@ -16,8 +17,8 @@
 <body>
     <div id="header">
         <div class="container">
-            <nav>
-                <img src="" alt="" class="logo">
+            <nav class="navbar">
+                <img src="assets/images/logo.png" alt="itech_logo" class="logo">
                 <ul id="sideMenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -28,10 +29,16 @@
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openMenu()"></i>
             </nav>
-            <div class="header-text">
-                <p>Full Stack Developer</p>
-                <h1>Hi, I'm <span>Wensheng</span><br> Li From Australia</h1>
+            <div class="row hero">
+                <div class="header-text">
+                    <p>Full Stack Developer</p>
+                    <h1>Hi, I'm <span>Wensheng</span><br> Li From Australia</h1>
+                </div>
+                <div class="hero-img">
+                    <img src="/assets/images/hero_img.png" alt="">
+                </div>
             </div>
+
         </div>
     </div>
     <!-- About -->
@@ -39,7 +46,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.JPG">
+                    <img src="/assets/images/user.JPG">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
@@ -128,7 +135,7 @@
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="images/work-1.png" alt="">
+                    <img src="assets/images/work-1.png" alt="">
                     <div class="layer">
                         <h3>Social Media App</h3>
                         <p>The app connects you to the talented people around the word. Download it from play store</p>
@@ -136,7 +143,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-1.png" alt="">
+                    <img src="assets/images/work-1.png" alt="">
                     <div class="layer">
                         <h3>Music App</h3>
                         <p>The app connects you to the talented people around the word. Download it from play store</p>
@@ -144,7 +151,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/work-1.png" alt="">
+                    <img src="assets/images/work-1.png" alt="">
                     <div class="layer">
                         <h3>Online Shopping App</h3>
                         <p>The app connects you to the talented people around the word. Download it from play store</p>
@@ -170,7 +177,7 @@
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                     </div>
-                    <a href="files/Wensheng Li | Resume.pdf" download class="btn btn2">Download CV</a>
+                    <a href="assets/files/Wensheng Li | Resume.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
